@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 function ProjectsContent() {
         const products = [
             { title: 'Project For Dashboard', catergory: ['css'],  des: 'Create logos and colors that express my brand, Design business cards, stationery, and marketing tools.', src: 'src/assets/laptob 6..jpg' ,path: 'https://osama78s.github.io/Dashboard-/' },
-            { title: 'Project For Future', catergory: ['react', 'dark'],  des: 'Create logos and colors that express my brand, Design business cards, stationery, and marketing tools.', src: 'src/assets/github-.svg' ,path: 'https://osama78s.github.io/React-Future/' },
+            { title: 'Project For Future', catergory: ['react', 'dark'],  des: 'Create logos and colors that express my brand, Design business cards, stationery, and marketing tools.', src: 'src/assets/laptob 7.jpg' ,path: 'https://osama78s.github.io/React-Future/' },
             { title: 'TodoList', catergory: ['react'], des: 'Create logos and colors that express my brand, Design business cards, stationery, and marketing tools.', src: 'src/assets/image 10.jpg', path: 'https://osama78s.github.io/React-TodoList/' },
             { title: 'Quran App', catergory: ['javascript'],  des: 'Create logos and colors that express my brand, Design business cards, stationery, and marketing tools.', src: 'src/assets/laptob 8.jpg', path: 'https://osama78s.github.io/Quran-App./' },
             { title: 'Personal Website', catergory: ['javascript', 'dark'], des: 'Create logos and colors that express my brand, Design business cards, stationery, and marketing tools.', src: 'src/assets/laptob 2.jpg', path: ' https://osama78s.github.io/Personal-Website/' },
@@ -84,7 +84,7 @@ function ProjectsContent() {
                             animate={{transform: 'scale(1)'}}
                             transition={{damping: 20, type: 'spring', stiffness: 80}}
                             >
-                                <img className='image-width w-80 rounded-tl-md rounded-tr-md' src={product.src} alt="project-1" />
+                                <img  src={product.src} className='image-width w-80 rounded-tl-md rounded-tr-md'/>
                                 <div className="content w-80 pt-2 p-3 bg-gradient-to-t dark:from-linear-dark1 dark:to-linear-dark1 from-navbg-light to-navbg-light">
                                     <h1 className='mt-3  dark:text-zinc-200 text-zinc-800 text-xl'>{product.title}</h1>
                                     <p className='mt-3 tracking-wide dark:text-title-p leading-6 text-sm text-zinc-600'>{product.des}</p>
