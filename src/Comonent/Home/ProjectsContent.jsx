@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import laptob1 from '../../assets/laptob 1.jpg'
 
 function ProjectsContent() {
         const products = [
@@ -14,7 +15,7 @@ function ProjectsContent() {
             { title: 'Personal Website', catergory: ['javascript', 'dark'], des: 'Create logos and colors that express my brand, Design business cards, stationery, and marketing tools.', src: 'src/assets/laptob 2.jpg', path: ' https://osama78s.github.io/Personal-Website/' },
             { title: 'A Special Project For A Designer', catergory: ['javascript', 'dark'], des: 'Create logos and colors that express my brand, Design business cards, stationery, and marketing tools.', src: 'src/assets/project-1.jpg', path: 'https://osama78s.github.io/Mohammed_Ahmed/' },
             { title: 'Project For Podcasts', catergory: ['css'],  des: 'Create logos and colors that express my brand, Design business cards, stationery, and marketing tools.', src: 'src/assets/laptob 3.jpg' ,path: 'https://osama78s.github.io/Art/' },
-            { title: 'A Group Of Teachers', catergory: ['css'],  des: 'Create logos and colors that express my brand, Design business cards, stationery, and marketing tools.', src: 'src/assets/laptob 1.jpg' ,path: 'https://osama78s.github.io/MO2lem/' },
+            { title: 'A Group Of Teachers', catergory: ['css'],  des: 'Create logos and colors that express my brand, Design business cards, stationery, and marketing tools.', src: laptob1 ,path: 'https://osama78s.github.io/MO2lem/' },
             { title: 'Project For Art', catergory: ['css'],  des: 'Create logos and colors that express my brand, Design business cards, stationery, and marketing tools.', src: 'src/assets/laptob 4.jpg' ,path: 'https://osama78s.github.io/Gallary/' },
             { title: 'Project For Kaspar', catergory: ['css'],  des: 'Create logos and colors that express my brand, Design business cards, stationery, and marketing tools.', src: 'src/assets/laptob 5.jpg' ,path: 'https://osama78s.github.io/Kasper/' },
             { title: 'TodoList', catergory: ['javascript'], des: 'Create logos and colors that express my brand, Design business cards, stationery, and marketing tools.', src: 'src/assets/laptob 9.jpg', path: 'https://osama78s.github.io/Todolist_Add_Tasks/' }
