@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faList, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { NavContext } from '../../NavContext/NavContext';
-import hero from '../../../assets/me.png';
+import heros from '../../../assets/me.png';
+
 
 function Header({ theme, setTheme }) {
     const location = useLocation();
@@ -35,7 +36,7 @@ function Header({ theme, setTheme }) {
                     <FontAwesomeIcon className='text-xl dark:text-zinc-200 dark:bg-navbg-dark rounded-full py-2 px-4 bg-navbg-light dark:hover:text-stone-300 text-icon-hover' icon={faList} onClick={handelList} />
                 </div>
                 <NavLink to={'/'} className={`${show ? 'hidden md:flex opacity-100' : 'hidden'} transition-all duration-200`}>
-                    <img className='w-8 md:w-10 border-border border-2 rounded-full cursor-pointer' src="src/assets/me.png" alt="logo" />
+                    <img className='w-8 md:w-10 border-border border-2 rounded-full cursor-pointer' src={heros} alt="logo" />
                 </NavLink>
             </div>
             <ul className='nav md:flex gap-10 items-center hidden dark:bg-navbg-dark bg-navbg-light rounded-full shadow-shadwo p-3 px-10'>

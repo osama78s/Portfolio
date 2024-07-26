@@ -42,7 +42,6 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<About />} />
           <Route path='/Articles' element={<Article />} />
-          {/* <Route path='/Projects' element={<Projects />} /> */}
           <Route path='/Uses' element={<Uses />} />
         </Routes>
         <span href="#" className={`${arrowLink ? 'opacity-100' : 'opacity-0'} transition-all duration-300`}>
