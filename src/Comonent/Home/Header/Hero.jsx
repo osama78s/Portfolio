@@ -1,13 +1,14 @@
 import React from 'react'
 import Lottie from "lottie-react";
 import developerAnimation from '../../../../public/animation/developer.json';
+import hero from '../../../assets/me.png';
 
 export const Hero = () => {
     return (
         <>
             <div className='flex transform translate-y-5 items-center h-full md:mt-14 pb-8 justify-between '>
                 <div className=''>
-                    <img className='mb-7 w-20 border border-border rounded-full bg-navbg-light' src="src/assets/me.png" alt="logo" />
+                    <img className='mb-7 w-20 border border-border rounded-full bg-navbg-light' src={hero} alt="logo" />
                     <h1 className='title dark:text-zinc-200 text-zinc-800 tracking-tight capitalize  leading-snug md:leading-snug text-4xl md:text-5xl mb-5 font-bold'>Software designer, founder, and Public relations.</h1>
                     <p className='title capitalize dark:text-title-p leading-8 text-sm  md:text-base md:leading-8 text-zinc-600 mb-10'>I’m Spencer, A Software Designer And entrepreneur based in Tanta City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.</p>
                     <div className="flex gap-6 items-center">
